@@ -1,5 +1,4 @@
 import { EntriesProps } from '@/services/hooks/useEntries'
-import { formatDate } from '@/utils/formatDate'
 import { Table, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react'
 
 type EntriesTableProps = {
@@ -9,7 +8,6 @@ type EntriesTableProps = {
 export function EntriesTable({ entries }: EntriesTableProps) {
   return (
     <Table colorScheme="whiteAlpha" mb="4">
-      {console.log(new Date('2021-10-10'))}
       <Thead>
         <Tr>
           <Th>Produto</Th>
@@ -39,7 +37,7 @@ export function EntriesTable({ entries }: EntriesTableProps) {
               <Text>{entry.createdBy.name}</Text>
             </Td>
             <Td>
-              <Text>{formatDate(entry.updatedAt)}</Text>
+              <Text>{entry?.updatedAt}</Text>
             </Td>
           </Tr>
         ))}

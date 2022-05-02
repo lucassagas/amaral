@@ -12,7 +12,7 @@ import { useState } from 'react'
 import { AuthenticatedLayout } from 'src/layouts/AuthenticatedLayout'
 
 type InitialEntriesProps = {
-  initialEntries: {
+  initialEntries?: {
     entries: EntriesProps[]
     totalEntries: number
   }

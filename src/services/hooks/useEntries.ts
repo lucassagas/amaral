@@ -1,3 +1,4 @@
+import { formatDate } from '@/utils/formatDate'
 import {
   QueryOptions,
   useQuery,
@@ -11,7 +12,7 @@ export type EntriesProps = {
   oldQuantity: number
   newQuantity: number
   quantity: number
-  updatedAt: Date
+  updatedAt: Date | string
   product: {
     name: string
   }
@@ -30,7 +31,17 @@ async function getEntries(page: number): Promise<ApiResponse> {
     params: page,
   })
 
-  return data
+  const formatedEntries = data.entries.map((entry) => ({
+    ...entry,
+    updatedAt: formatDate(entry.updatedAt),
+  }))
+
+  const formatedData = {
+    totalEntries: data.totalEntries,
+    entries: formatedEntries,
+  }
+
+  return formatedData
 }
 
 export function useEntries(

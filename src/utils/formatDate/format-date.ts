@@ -1,4 +1,4 @@
-export const formatDate = (date: Date) =>
+export const formatDate = (date: Date | string) =>
   new Intl.DateTimeFormat('pt-br', {
     day: '2-digit',
     month: '2-digit',

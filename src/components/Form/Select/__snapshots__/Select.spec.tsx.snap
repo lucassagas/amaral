@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> should render component with error 1`] = `
+<p
+  class="chakra-text css-1o0kj4s"
+>
+  Campo obrigatório
+</p>
+`;
+
+exports[`<Select /> should render correctly 1`] = `
+<div>
+  <div
+    class="chakra-form-control css-1kxonj9"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-pk5tju"
+      for="email"
+      id="field-1-label"
+    >
+      Nome
+    </label>
+    <div
+      class="chakra-select__wrapper css-42b2qy"
+    >
+      <select
+        class="chakra-select css-s5zj6t"
+        id="name"
+      >
+        <option
+          value="1"
+        >
+          John Doe
+        </option>
+      </select>
+      <div
+        class="chakra-select__icon-wrapper css-zj2dqk"
+      >
+        <svg
+          aria-hidden="true"
+          class="chakra-select__icon"
+          focusable="false"
+          role="presentation"
+          style="width: 1em; height: 1em; color: currentColor;"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
