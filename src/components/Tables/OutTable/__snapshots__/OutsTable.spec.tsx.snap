@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OutsTable /> should render correctly 1`] = `
+<div>
+  <table
+    class="chakra-table css-e4kp03"
+    role="table"
+  >
+    <thead
+      class="css-0"
+    >
+      <tr
+        class="css-0"
+        role="row"
+      >
+        <th
+          class="css-1ednkar"
+        >
+          Produto
+        </th>
+        <th
+          class="css-1ednkar"
+        >
+          Qtd. anterior
+        </th>
+        <th
+          class="css-1ednkar"
+        >
+          Saída
+        </th>
+        <th
+          class="css-1ednkar"
+        >
+          Estoque
+        </th>
+        <th
+          class="css-1ednkar"
+        >
+          Responsável
+        </th>
+        <th
+          class="css-1ednkar"
+        >
+          Data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="css-0"
+    >
+      <tr
+        class="css-0"
+        role="row"
+      >
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            peixe
+          </p>
+        </td>
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            150
+          </p>
+        </td>
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            100
+          </p>
+        </td>
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            250
+          </p>
+        </td>
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            Lucas Sagás
+          </p>
+        </td>
+        <td
+          class="css-1n48h1c"
+          role="gridcell"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            04/04/2022
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

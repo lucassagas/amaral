@@ -1,4 +1,4 @@
-import { CgLogIn } from 'react-icons/cg'
+import { CgLogIn, CgLogOut } from 'react-icons/cg'
 import { RiDashboardLine, RiShoppingBag3Line } from 'react-icons/ri'
 
 export default {
@@ -13,5 +13,9 @@ export default {
   Entradas: {
     icon: CgLogIn,
     link: '/app/entries',
+  },
+  Saídas: {
+    icon: CgLogOut,
+    link: '/app/outs',
   },
 } as const
